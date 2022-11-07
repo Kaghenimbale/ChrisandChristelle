@@ -1,0 +1,32 @@
+body{
+    display: grid;
+    grid-template-columns: 25vw auto;
+    margin: 1vh;
+}
+
+.navbar{
+    font-size: 3vh;
+    position: fixed;
+    /* padding: 3vh; */
+    
+}
+.navbar header{
+    font-weight: bold;
+    text-align: center;
+}
+nav ul li{
+    list-style: none;
+    border: 2px;
+    border-style: solid;
+    padding: 2vh;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.main-content{
+    padding: 5vh;
+    font-size: 3vh;
+    grid-column-start: 2;
+}
